@@ -40,39 +40,9 @@ data-number со значением 50 и вывести его в консол�
 */
 console.log('Задача 4');
 
-// const dataNumNew = document.getElementsByName('dataNumNew');
-// const dataNum = document.querySelector('dataNumNew[data-number="50"]');
-// // const dataNum = document.getElements('data - number');
-// // dataNum.getAttribute('data-number');
-// // for (let dataNum of document.body.card) {
-// //     if (dataNum.matches('data-number = "50"')) {
-// //         console.log(dataNum);
-
-// //     }
-
-// // }
-
-// console.log(dataNumNew);
-
-
-
-
-
 const dataNum = document.querySelector('[data-number = "50"]');
 
-// const align = dataNum.getAttribute('.data-number');
-// const dataNum = document.querySelectorAll('data-number');
-// dataNum.forEach(element => {
 
-//     console.log(dataNum);
-// });
-// const dataNum = document.querySelector('body');
-
-// dataNum.getAttribute('data-number');
-// console.log(dataNum.getAttribute('data-number'));
-
-
-// console.log(align);
 console.log(dataNum);
 
 /*
